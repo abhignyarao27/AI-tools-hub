@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>AI Tools Hub</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <h1>AI Tools Hub 🚀</h1>
+  <div class="app">
 
-  <div class="categories">
-  <button onclick="filterCategory('All')">All</button>
-  <button onclick="filterCategory('Writing')">Writing</button>
-  <button onclick="filterCategory('Coding')">Coding</button>
-  <button onclick="filterCategory('Design')">Design</button>
-  <button onclick="filterCategory('Productivity')">Productivity</button>
-</div>
-  <input type="text" id="search" placeholder="Search AI tools...">
+    <div class="hero">
+      <h1 id="liveTitle">Discover The Best AI Tools 🚀</h1>
 
-  <div id="tools"></div>
+      <p>
+        Explore powerful AI tools for coding, writing,
+        design, productivity, learning, and more.
+      </p>
+
+      <input type="text" id="search" placeholder="Search AI tools...">
+    </div>
+
+    <div class="categories">
+      <button onclick="filterCategory('All')">All</button>
+      <button onclick="filterCategory('Writing')">Writing</button>
+      <button onclick="filterCategory('Coding')">Coding</button>
+      <button onclick="filterCategory('Design')">Design</button>
+      <button onclick="filterCategory('Productivity')">Productivity</button>
+      <button onclick="filterCategory('Research')">Research</button>
+      <button onclick="filterCategory('Learning')">Learning</button>
+      <button onclick="filterCategory('Image Generation')">Image Gen</button>
+      <button onclick="filterCategory('Video AI')">Video AI</button>
+      <button onclick="filterCategory('Audio AI')">Audio AI</button>
+    </div>
+
+    <div id="tools"></div>
+
+  </div>
 
   <script src="script.js"></script>
 
 </body>
+
 </html>
