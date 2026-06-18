@@ -21,6 +21,7 @@ const tools = [
   { name: "GitHub Copilot", category: "Coding", link: "https://github.com/features/copilot" },
   { name: "Cursor", category: "Coding", link: "https://cursor.com" },
   { name: "Replit", category: "Coding", link: "https://replit.com" },
+  { name: "Roblox GUI Maker", category: "Coding", link: "https://robloxguimaker.dev/" },
 
   /* PRODUCTIVITY */
 
