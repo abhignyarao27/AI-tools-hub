@@ -25,6 +25,7 @@ const tools = [
   /* PRODUCTIVITY */
 
   { name: "Notion AI", category: "Productivity", link: "https://www.notion.so/product/ai" },
+  { name: "Remio", category: "Productivity", link: "https://remio.ai" },
   { name: "Todoist", category: "Productivity", link: "https://todoist.com" },
   { name: "ClickUp", category: "Productivity", link: "https://clickup.com" },
   { name: "Otter.ai", category: "Productivity", link: "https://otter.ai" },
