@@ -124,6 +124,7 @@ const tools = [
   /* DEVELOPER TOOLS */
 
   { name: "Postman", category: "Developer Tools", link: "https://www.postman.com" },
+  { name: "Agent QA", category: "Developer Tools", link: "https://github.com/vostride/agent-qa" },
 
   /* AI AGENTS */
 
